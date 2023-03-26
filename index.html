@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Question and Answers Day 2</title>
+</head>
+<body>
+
+    <h1>Explain br tags</h1>
+<p>
+    The < br > tag inserts a single line break. <br>
+    The < br > tag is useful for writing addresses or poems. <br>
+    The < br > tag is an empty tag which means that it has no end tag. <br>
+</p>
+
+<h1>Explain how many different types of lists we have in html </h1>
+<p>
+
+They are three types of lists in html. <br>
+They are: 
+<ol>
+<li>Ordered lists</li>
+<li>Unordered lists</li>
+<li>Discription lists</li>
+</ol>
+
+<h2>Ordered html list:</h2>
+
+An ordered list starts with the < ol > tag. Each list item starts with the < li > tag.
+    The list items will be marked with numbers by default:
+    Example
+    <ol type="A">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+<h2>Unordered HTML List:</h2>
+
+An unordered list starts with the < ul > tag. Each list item starts with the < li > tag.
+    The list items will be marked with bullets (small black circles) by default:
+    Example
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+<h2> HTML Description Lists</h2>
+
+HTML also supports description lists.
+A description list is a list of terms, with a description of each term.
+The < dl > tag defines the description list, the < dt > tag defines the term (name), and the < dd > tag describes each term:
+Example
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+</p>
+
+<h1>What are semantic tags</h1>
+<p>
+
+    Semantic HTML tags are tags that define the meaning of the content they contain. 
+For example, tags like < header >, < article >, and < footer > are semantic HTML tags. They clearly indicate the role of the content they contain.
+On the other hand, tags like < div > and < span > are typical examples of non-semantic HTML elements. They serve only as content holders but give no indication as to what type of content they contain or what role that content plays on the page.
+Why Do I Need to Use Semantic HTML Tags? <br>
+Besides the obvious reason that semantic HTML tags are easier to read and understand—for example, by web developers reviewing the code—there are two more specific reasons why you should always use semantic tags.
+<h2>Accessibility</h2>
+For sighted users, it’s easy to identify the various parts of a webpage. Headers, footers, and the main content are all immediately visually apparent. 
+However, it is not that easy for users who are blind or visually impaired and rely on screen readers. 
+The proper use of HTML semantic tags will allow these readers to understand your content better because their screen readers will communicate your content more accurately.
+<h2>SEO</h2>
+Semantic HTML tags are important for SEO (search engine optimization) because they indicate the role of the content within the tags. 
+That information gives search engine crawlers, like Googlebot, a better understanding of your content. This increases the chances that your content will be selected as a candidate for ranking on the search engine results page (SERP) for relevant keywords.
+To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t. 
+
+</p>
+
+<h1>Write code to create an ordered list with roman numbers</h1>
+<p>
+<h3>Ordered list with upper case roman numbers:</h3>
+    <ol type="I">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>
+        <h3>Ordered list with lower case roman numbers:</h3>
+        <ol type="i">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ol>
+    
+</p>
+
+<h1>Write code to create an unordered list with circle </h1>
+
+<p>
+<ul type="circle">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ul>
+</p>
+
+<h1>Write code to create an nested list that contain order list (numeric) first then unorderlist(disc) then again one unorder list(squre)</h1>
+
+<p>
+<h3>curricular activities:</h3>
+<ol type="num">
+<li>
+    Sports
+<ul type="disc">
+<li>Cricket</li>
+<li>Football</li>
+</ul>
+
+<ul type="squre">
+<li>chess</li>
+<li>Snookers</li>
+</ul>
+</li>
+<li>Singing</li>
+
+</ol>
+
+</p>
+
+<h1>Write code to create a link to https://www.prepbytes.com</h1>
+<p>
+    <a href="https://www.prepbytes.com" target="_blank">Click here to go to prepbytes.com.</a>
+</p>
+
+</body>
+</html>
